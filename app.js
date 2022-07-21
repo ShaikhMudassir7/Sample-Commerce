@@ -20,7 +20,7 @@ app.use(session({
 }))
 
 mongoose.connect(
-    "mongodb+srv://entwicklera:" + process.env.MONGO_PASS + "@cluster0.ns4yy5i.mongodb.net/?retryWrites=true&w=majority", {
+    "mongodb+srv://entwicklera:entw2020@cluster0.ns4yy5i.mongodb.net/?retryWrites=true&w=majority", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });

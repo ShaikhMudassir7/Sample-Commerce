@@ -9,4 +9,7 @@ router.get('/signup', (req, res) => {
     res.render("./admin/signup")
 })
 
+router.get('/reset', (req, res) => {
+    res.render("./admin/reset")
+})
 module.exports = router
