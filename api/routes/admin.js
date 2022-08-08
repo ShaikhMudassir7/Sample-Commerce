@@ -12,4 +12,5 @@ router.get('/signup', (req, res) => {
 router.get('/reset', (req, res) => {
     res.render("./admin/reset")
 })
+
 module.exports = router
